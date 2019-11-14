@@ -1,0 +1,16 @@
+{
+  "name": "kafka-node-app",
+  "version": "1.0.0",
+  "description": "Building a real-time data streaming application pipeline with Apache Kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node producer.js"
+  },
+  "author": "Rajesh",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "kafka-node": "^5.0.0"
+  }
+}
